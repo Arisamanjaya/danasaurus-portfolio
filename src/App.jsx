@@ -2,12 +2,14 @@ import React from 'react';
 import DesignerSection from './component/Designer/DesignerSection';
 import ExpSection from './component/Experience/ExpSection';
 import DanaSection from './component/Danasaurus/DanaSection';
+import Footer from './component/Footer';
+import Header from './component/Header'
 
 const App = () => {
   return (
     <div>
       <header>
-        {/* Tambahkan header Anda di sini */}
+        <Header/>
       </header>
       <main>
         {/* Tambahkan komponen DesignerSection di sini */}
@@ -16,7 +18,7 @@ const App = () => {
         <DanaSection/>
       </main>
       <footer>
-        {/* Tambahkan footer Anda di sini */}
+        <Footer/>
       </footer>
     </div>
   );

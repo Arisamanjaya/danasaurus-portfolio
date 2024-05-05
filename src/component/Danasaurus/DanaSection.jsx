@@ -5,6 +5,7 @@ import SocialMediaItem from './SocialMediaItem';
 import { RiInstagramFill } from "react-icons/ri";
 import { RiLinkedinFill } from "react-icons/ri";
 import { RiBehanceFill } from "react-icons/ri";
+import profileImg from '/src/assets/Compresed copy 2.png';
 
 const DanaSection = () => {
     return (
@@ -17,7 +18,7 @@ const DanaSection = () => {
                 Sometimes I create random<br />UIX content on Social Media as Danasaurus
             </h2>
         </div>
-        <img className="w-60 h-60 rounded-full" src="https://via.placeholder.com/240x240" alt="Profile" />
+        <img className="w-60 h-60 rounded-full" src={profileImg} alt="Profile" />
         
         <div className="max-w-lg flex flex-col gap-8">
             <SocialMediaItem
