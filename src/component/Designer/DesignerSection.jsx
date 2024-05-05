@@ -1,5 +1,7 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
+import kisahloka from '/Users/arisamanjaya/Documents/CODE/portfolio-2024-project/src/assets/KisahLoka.png';
+
 
 const DesignerSection = () => {
     return (
